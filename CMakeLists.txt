@@ -7,7 +7,10 @@ set(CMAKE_CXX_EXTENSIONS OFF)
 
 enable_testing()
 
-add_executable(triangulator src/main.cpp)
+add_executable(triangulator 
+    src/main.cpp
+    src/file_parser.cpp
+)
 
 add_executable(test_runner tests/test_placeholder.cpp)
 add_test(NAME PlaceholderTest COMMAND test_runner)
