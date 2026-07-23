@@ -1,0 +1,17 @@
+{
+  "algorithm": {
+    "radius_multiplier": 2.0,
+    "pca_neighbors": 25,
+    "min_angle_degrees": 15.0,
+    "max_edge_multiplier": 2.5,
+    "duplicate_tolerance": 1e-6,
+    "max_retries": 3
+  },
+  "performance": {
+    "use_approximate_search": false,
+    "threads": 4
+  },
+  "output": {
+    "export_obj": false
+  }
+}
