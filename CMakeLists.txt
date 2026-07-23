@@ -16,6 +16,7 @@ add_executable(triangulator
     src/main.cpp
     src/file_parser.cpp
     src/config.cpp
+    src/preprocessor.cpp
 )
 
 target_link_libraries(triangulator PRIVATE nlohmann_json::nlohmann_json)

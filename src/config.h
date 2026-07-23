@@ -8,7 +8,7 @@ struct AlgorithmConfig {
     int pca_neighbors = 25;
     double min_angle_degrees = 15.0;
     double max_edge_multiplier = 2.5;
-    double duplicate_tolerance = 1e-9;
+    double duplicate_tolerance = 1e-6;
     int max_retries = 3;
     
     void loadFromJson(const nlohmann::json& j);
